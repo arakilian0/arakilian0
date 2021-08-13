@@ -1,7 +1,16 @@
-// import App from 'next/app'
+// Global Styles
+import '../styles/root.css'
+import '../styles/reset.css'
+import '../styles/breakpoints.css'
+
+import Layout from '../comps/Layout'
 
 function MyApp({ Component, pageProps }) {
-    return <Component {...pageProps} />
+    return(
+      <Layout>
+        <Component {...pageProps} />
+      </Layout>
+    ) 
 }
 
 // Only uncomment this method if you have blocking data requirements for
