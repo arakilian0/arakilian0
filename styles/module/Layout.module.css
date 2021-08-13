@@ -1,0 +1,9 @@
+.header {
+    display: flex;
+    background: var(--color-primary);
+}
+
+.footer {
+    display: flex;
+    background: var(--color-secondary);
+}
