@@ -2,6 +2,7 @@
 import '../styles/root.css'
 import '../styles/reset.css'
 import '../styles/breakpoints.css'
+import 'bootstrap/dist/css/bootstrap.min.css'
 
 import Layout from '../comps/Layout'
 
