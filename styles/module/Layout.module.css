@@ -1,6 +1,48 @@
 .header {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
     background: var(--color-primary);
+    padding: 1rem;
+}
+
+.headerLeft {
+    display: flex;
+    align-items: center;
+}
+
+.headerRight {
+    display: flex;
+    align-items: center;
+}
+.headerRight div {
+    cursor: pointer;
+}
+
+.headerTitle {
+    font-size: 1.5rem;
+    margin-right: 3rem;
+    cursor: pointer;
+    color: white;
+}
+
+.headerNav ul {
+    display: flex;
+}
+
+.headerNav ul li a {
+    text-decoration: none;
+    color: white;
+    padding-right: 2rem;
+    font-size: 1.1rem;
+}
+
+.themeDropdown a div div img {
+    max-width: 2rem !important;
+}
+
+.themeDropdown a::after {
+    display: none;
 }
 
 .footer {
