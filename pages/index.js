@@ -9,7 +9,7 @@ import profilePic from '../public/me.jpg'
 function HomePage() { 
     return(
       <Fragment>
-        <_Head title="not something else" />
+        <_Head title="My portfolio" />
         <Container className="main">
             <div className={styles.leftMain} id="leftMain">
               <Image src={profilePic} width="100" height="100" className={styles.profilePic} alt="Picture of the author" />

@@ -5,7 +5,7 @@ import { Container } from 'react-bootstrap'
 function WritingsPage() {
     return(
       <Fragment>
-        <_Head title="not something else" />
+        <_Head title="Writings" />
         <Container className="main">
           <div>Writings: under construction...</div>
         </Container>

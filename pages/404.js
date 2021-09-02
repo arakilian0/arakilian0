@@ -5,7 +5,7 @@ import { Container } from 'react-bootstrap'
 function Custom404() {
     return(
       <Fragment>
-        <_Head title="not something else" />
+        <_Head title="404 Error" />
         <Container className="main">
           <div className="text-center">
             <h3>404.</h3>

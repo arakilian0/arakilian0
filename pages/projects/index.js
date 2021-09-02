@@ -6,7 +6,7 @@ import Project from '@comps/Project'
 function ProjectsPage() {
     return(
       <Fragment>
-        <_Head title="not something else" />
+        <_Head title="Projects" />
         <Container className="main">
           <div>Projects: under construction...</div>
         {/* <div class="main-row">

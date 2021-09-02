@@ -5,7 +5,7 @@ import { Container } from 'react-bootstrap'
 function ContactPage() {
     return(
       <Fragment>
-        <_Head title="not something else" />
+        <_Head title="Contact" />
         <Container className="main">
           <div>Contact: under construction...</div>
         </Container>
