@@ -2,7 +2,8 @@
  @media only screen and (max-width: 600px) {}
  @media only screen and (max-width: 768px) {
      .main {
-         flex-direction: column;
+        flex-direction: column;
+        padding: 4rem 4rem;
      }
      .main-row {
         flex-direction: column;
@@ -10,6 +11,9 @@
     }
     .main-row .card {
         margin-bottom: 2rem !important;
+    }
+    #leftMain {
+        margin-bottom: 2rem;
     }
  }
  @media only screen and (max-width: 992px) {
