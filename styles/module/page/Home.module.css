@@ -1,0 +1,19 @@
+.leftMain {
+    /* background: red; */
+    margin-right: 2rem;
+}
+.leftMain div {
+    /* background: red; */
+    width: 280px !important;
+    height: 280px !important;
+}
+.rightMain {
+    /* background: blue; */
+    margin-left: 2rem;
+    margin-right: 2rem;
+    width: 380px;
+}
+
+.profilePic {
+    border-radius: 50%;
+}

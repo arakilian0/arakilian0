@@ -1,0 +1,26 @@
+ @media only screen and (max-width: 600px) {}
+ @media only screen and (max-width: 600px) {}
+ @media only screen and (max-width: 768px) {
+     .main {
+        flex-direction: column;
+        padding: 4rem 4rem;
+     }
+     .main-row {
+        flex-direction: column;
+        margin:0;
+    }
+    .main-row .card {
+        margin-bottom: 2rem !important;
+    }
+    #leftMain {
+        margin-right: 0;
+        margin-bottom: 2rem;
+    }
+    .mob-text-space {
+        padding: 0 2rem;
+    }
+ }
+ @media only screen and (max-width: 992px) {
+    
+ }
+ @media only screen and (max-width: 1200px) {} 

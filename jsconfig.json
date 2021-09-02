@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+      "baseUrl": ".",
+      "paths": {
+        "@comps/*": ["comps/*"],
+        "@styles/*": ["styles/*"]
+      }
+    },
+    "exclude": [
+        "node_modules",
+        "public",
+        ".next"
+    ]
+}
