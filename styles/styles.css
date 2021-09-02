@@ -13,3 +13,15 @@
     align-items: center;
     margin: 2rem 0;
 }
+.badge {
+    color: #fff !important;
+    background-color: #3454d1 !important;
+    border-radius: 1rem !important;
+}
+.card-link {
+    color: #000 !important;
+    text-decoration: none;
+}
+.highl {
+    font-style: italic;
+}

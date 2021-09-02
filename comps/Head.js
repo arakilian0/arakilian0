@@ -14,7 +14,6 @@ function _Head(props) {
                 </title>
 
                 {/* Load theme in local storage */}
-                <link rel="stylesheet" href="theme/Default.css" />
 
                 { props.children }
             </Head>

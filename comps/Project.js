@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import { Card,ListGroup,ListGroupItem } from 'react-bootstrap'
+import { Card,ListGroup,ListGroupItem,Badge } from 'react-bootstrap'
 import profilePic from '../public/me.jpg'
 
 function Project(props) {
@@ -15,14 +15,21 @@ function Project(props) {
                 </Card.Text>
             </Card.Body>
             <ListGroup className="list-group-flush">
-                <ListGroupItem>Cras justo odio</ListGroupItem>
-                <ListGroupItem>Dapibus ac facilisis in</ListGroupItem>
-                <ListGroupItem>Vestibulum at eros</ListGroupItem>
+                <ListGroupItem>
+                    <Badge>Primary</Badge>{' '}
+                    <Badge>Secondary</Badge>{' '}
+                    <Badge>Success</Badge>{' '}
+                </ListGroupItem>
+                <ListGroupItem>
+                    <Card.Link href="#">Card Link</Card.Link>
+                </ListGroupItem>
+                <ListGroupItem>
+                    <Card.Link href="#">Card Link</Card.Link>
+                </ListGroupItem>
+                <ListGroupItem>
+                    <Card.Link href="#">Card Link</Card.Link>
+                </ListGroupItem>
             </ListGroup>
-            <Card.Body>
-                <Card.Link href="#">Card Link</Card.Link>
-                <Card.Link href="#">Another Link</Card.Link>
-            </Card.Body>
         </Card>
     )
 }

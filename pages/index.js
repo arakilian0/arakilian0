@@ -1,7 +1,7 @@
 import { Fragment } from 'react'
 import _Head from '@comps/Head'
 import Image from 'next/image'
-import { Container } from 'react-bootstrap'
+import { Container,Badge } from 'react-bootstrap'
 import styles from '@styles/module/page/Home.module.css'
 
 import profilePic from '../public/me.jpg'
@@ -15,8 +15,21 @@ function HomePage() {
               <Image src={profilePic} width="100" height="100" className={styles.profilePic} alt="Picture of the author" />
             </div>
             <div className={styles.rightMain}>
-              <h2>Full Stack Developer</h2>
-              It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years.
+              <h2 className="mob-text-space">Full Stack Developer</h2>
+              <p className="mob-text-space">I am a motivated full stack developer with a passion for creativity and problem solving. I have some experience with desktop and mobile as well. For that reason, I claim the title <span className="highl">Full Stack Developer</span>. Including <b>Web</b> feels limiting.</p>
+              <p className="mob-text-space">Hobbies:</p>
+              <div className="mob-text-space">
+                <Badge>research</Badge>{' '}
+                <Badge>hack</Badge>{' '}
+                <Badge>teach</Badge>{' '}
+                <Badge>read</Badge>{' '}
+                <Badge>draw</Badge>{' '}
+                <Badge>animate</Badge>{' '}
+                <Badge>write</Badge>{' '}
+                <Badge>cook</Badge>{' '}
+                <Badge>travel</Badge>{' '}
+                <Badge>games</Badge>{' '}
+              </div>
             </div>
         </Container>
       </Fragment>

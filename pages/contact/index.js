@@ -7,7 +7,7 @@ function ContactPage() {
       <Fragment>
         <_Head title="not something else" />
         <Container className="main">
-          <div>Welcome to my contact page!</div>
+          <div>Contact: under construction...</div>
         </Container>
       </Fragment>
     ) 

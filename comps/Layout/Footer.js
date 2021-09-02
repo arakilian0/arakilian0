@@ -6,8 +6,7 @@ function Footer() {
     return(
         <footer className={styles.footer}>
             <Container>
-                <div>Footer</div>
-                <div>asdasd</div>
+                <div>Site designed and built by me.</div>
             </Container>
         </footer>
     )

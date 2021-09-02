@@ -9,7 +9,7 @@ function Resume(props) {
         backdrop="static"
         keyboard={false}>
             <Modal.Header closeButton>
-                <Modal.Title>MichaelArakilian.pdf</Modal.Title>
+                <Modal.Title>MichaelArakilian.PDF</Modal.Title>
             </Modal.Header>
             <Modal.Body>
                 Size: 1MB<br/>
@@ -18,7 +18,7 @@ function Resume(props) {
             </Modal.Body>
             <Modal.Footer>
                 <Button variant="secondary" onClick={props.handleClose}>Close</Button>
-                <Link href="/README.md" target="_blank" download>
+                <Link href="/MichaelArakilian.PDF" target="_blank" download>
                     <Button variant="success">Download</Button>
                 </Link>
             </Modal.Footer>

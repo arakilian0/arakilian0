@@ -7,8 +7,9 @@ function ProjectsPage() {
     return(
       <Fragment>
         <_Head title="not something else" />
-        <Container className="main-padding">
-        <div class="main-row">
+        <Container className="main">
+          <div>Projects: under construction...</div>
+        {/* <div class="main-row">
             <Project 
               name="Mood UI"
               image=""
@@ -46,7 +47,7 @@ function ProjectsPage() {
               link1="https://atom.io/themes/mood-ui"
               link2="https://marketplace.visualstudio.com/items?itemName=arakilian0.mood-ui"
               keywords="asd,asd,asd,asd" />
-          </div>
+          </div> */}
         </Container>
       </Fragment>
     ) 
