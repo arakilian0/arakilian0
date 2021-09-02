@@ -2,8 +2,10 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: var(--color-primary);
+    /* background: var(--color-primary) !important; */
+    color: #eee !important;
     padding: 1rem;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
 }
 
 .headerLeft {
@@ -46,6 +48,8 @@
 }
 
 .footer {
+    min-height: 20vh !important;
     display: flex;
-    background: var(--color-secondary);
+    color: black;
+    box-shadow: 0 -3px 6px rgba(0,0,0,0.16), 0 -3px 6px rgba(0,0,0,0.23);
 }

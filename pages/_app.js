@@ -1,6 +1,7 @@
 // Global Styles
 import '../styles/root.css'
 import '../styles/reset.css'
+import '../styles/styles.css'
 import '../styles/breakpoints.css'
 import 'bootstrap/dist/css/bootstrap.min.css'
 

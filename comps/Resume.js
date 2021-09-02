@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import { Modal, Button } from 'react-bootstrap'
 
 function Resume(props) {
@@ -8,15 +9,18 @@ function Resume(props) {
         backdrop="static"
         keyboard={false}>
             <Modal.Header closeButton>
-                <Modal.Title>Modal title</Modal.Title>
+                <Modal.Title>MichaelArakilian.pdf</Modal.Title>
             </Modal.Header>
             <Modal.Body>
-                I will not close if you click outside me. Don't even try to press
-                escape key.
+                Size: 1MB<br/>
+                Created: Jan 31, 2019<br/>
+                Updated: September 1, 2021
             </Modal.Body>
             <Modal.Footer>
                 <Button variant="secondary" onClick={props.handleClose}>Close</Button>
-                {/* <Button variant="primary">Understood</Button> */}
+                <Link href="/README.md" target="_blank" download>
+                    <Button variant="success">Download</Button>
+                </Link>
             </Modal.Footer>
         </Modal>
     )

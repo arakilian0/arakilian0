@@ -1,0 +1,15 @@
+.main {
+    padding: 4rem 0 ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main-padding {
+    padding: 4rem 0 ;
+}
+.main-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem 0;
+}
