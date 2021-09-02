@@ -20,7 +20,8 @@
     width: 32%;
     height: 100%;
     float: right;
-    background: black;
+    background: white;
+    box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
 }
 #image img {
     width: 80px;
@@ -28,8 +29,8 @@
 }
 #caption {
     vertical-align: top;
-    margin-top: 10px;
-    margin-left: 40px;
+    margin-top: -11px;
+    margin-left: 25px;
 }
 header {
     position: absolute;
@@ -80,6 +81,13 @@ header div {
     padding-right: 5px;
     margin-right: 5px;
 }
+.lang-tip {
+    display: inline-block;
+    width: 4px;
+    height: 14px;
+    padding-right: 5px;
+    margin-right: 5px;
+}
 </style>
 </head>
 <body>
@@ -91,42 +99,48 @@ header div {
                 </div>
                 <div id="caption">
                     <h1>Michael Arakilian</h1>
-                    <p>Full Stack Developer</p>
+                    <h3 style="margin-bottom: 7px;">Full Stack Developer</h3>
+                    <p>
+                        <a class="dark" style="line-height: 20px;" href="https://arakilian0.com" target="_blank">arakilian0.com</a>
+                        <span class="work-tip" style="margin-left: 5px;"></span>
+                        <a class="dark" style="line-height: 20px;" href="mailto:arakilian0@gmail.com" target="_blank">arakilian0@gmail.com</a>
+                        <span class="work-tip" style="margin-left: 5px;"></span>
+                        <a class="dark" href="tel:213-393-2466" target="_blank">213-393-2466</a>
+                    </p>
                 </div>
             </header>
             <div>
                 <section class="top-section" style="padding-bottom: 20px;">
                     <h2>Statement</h2>
-                    <p class="text-spacing-last">My passions involve many things but i'd say my desire for constant creativity would top them all.</p>
+                    <p class="text-spacing-last">I am a motivated developer with a passion for creativity and problem solving.</p>
                 </section>
                 <section style="padding: 20px 60px;">
                     <h2>History</h2>
                     <div class="text-spacing">
                         <h3 style="padding-bottom:5px;"><span class="work-tip"></span>Manager, EJewelsUSA, Los Angeles</h3>
-                        <h5 style="padding-bottom:9px;">March 2021 - Present</h5>
+                        <h5 style="padding-bottom:9px;color:gray;">March 2021 - Present</h5>
                         <ul style="padding-left: 40px;">
-                            <li>Optimize SEO, which led to an increase of sales by <b><i>900%</i></b></li>
-                            <li>Build automation cycles which helped increase overall productivity</li>
-                            <li>Create Web and Email Templates using HTML, CSS, & JavaScript</li>
+                            <li>Organized SEO optimizations which increased sales by <b><i>900%</i></b></li>
+                            <li>Build automation cycles boosting overall productivity</li>
+                            <li>Create web and email templates using HTML, CSS, & JavaScript</li>
                         </ul>
                     </div>
                     <div class="text-spacing">
                         <h3 style="padding-bottom:5px;"><span class="work-tip"></span>Freelance Developer, Remote</h3>
-                        <h5 style="padding-bottom:9px;">August 2017 - Present</h5>
+                        <h5 style="padding-bottom:9px;color:gray;">August 2017 - Present</h5>
                         <ul style="padding-left: 40px;">
                             <li>Work well independently and on a team to solve problems</li>
                             <li>Strategise with UI/UX teams to meet deadlines</li>
-                            <li>Build email templates using HTML, CSS, and JavaScript</li>
-                            <li>Test, Host, and Monitor Web Apps on several different platforms</li>
+                            <li>Test, host, and monitor web apps on several different platforms</li>
                         </ul>
                     </div>
                     <div class="text-spacing">
                         <h3 style="padding-bottom:5px;"><span class="work-tip"></span>Asst. Manager, Pyramid Special Jewelry, Los Angeles</h3>
-                        <h5 style="padding-bottom:9px;">July 2016 - December 2020</h5>
+                        <h5 style="padding-bottom:9px;color:gray;">July 2016 - December 2020</h5>
                         <ul style="padding-left: 40px;">
                             <li>Brought forth an excellent understanding of current trends</li>
-                            <li>Developed applications to manage retail/wholesale orders</li>
-                            <li>Implemented and extended several different open-source tools to help with automation and increase overall productivity</li>
+                            <li>Configured SasS products to manage retail/wholesale orders</li>
+                            <li>Implemented and extended several open-source tools to help with automation and increase productivity</li>
                         </ul>
                     </div>
                 </section>
@@ -134,13 +148,13 @@ header div {
                     <h2>Education</h2>
                     <div class="text-spacing">
                         <h3 style="padding-bottom:5px;">Coding Dojo, Los Angeles</h3>
-                        <h5 style="padding-bottom:7px;">January 2018 - April 2018</h5>
+                        <h5 style="padding-bottom:7px;color:gray;">January 2018 - April 2018</h5>
                         <p>Completed a Full Stack Web Developer Program @ Coding Dojo - Los Angeles. Had amazing teachers and met some of the greatest developers on the planet.<span style="display: inline-block;padding-top:5px;color: gray;font-style: italic;">Cherished Memory: Worked in groups every morning to understand various methods of data manipulation. For the most part, everyone had a different answer to solve the same problem. Then it was just a matter of effeciency.</span></p>
                     </div>
                 </section>
                 <section style="padding: 20px 60px;">
                     <h2>References</h2>
-                    <p class="text-spacing-last">References available upon request.</p>
+                    <h4 class="text-spacing-last">References available upon request.</h4>
                 </section>
             </div>
         </div>
@@ -148,98 +162,92 @@ header div {
         <div id="aside">
             <div>
                 <section class="top-section">
-                    <h2 class="light" style="padding-bottom:10px;">Details</h2>
-                    <p class="light" style="line-height: 20px;">3918 Brunswick Ave<br/>Los Angeles, 90039<br/>United States</p>
-                    <a class="light" style="line-height: 20px;" href="tel:213-393-2466" target="_blank">213-393-2466</a>
-                    <a class="light" style="line-height: 20px;" href="mailto:arakilian0@gmail.com" target="_blank">arakilian0@gmail.com</a>
+                    <h2 class="dark" style="padding-bottom:10px;">Details</h2>
+                    <p class="dark" style="line-height: 20px;">Los Angeles, CA 90039<br/>United States</p>
                     <div>
-                        <p class="light" style="text-transform: uppercase;padding-top:10px;line-height: 30px;color:gray;font-size: 14px;">Date / Place of Birth</p>
-                        <p class="light" style="line-height: 20px;">November 12, 1997</p>
-                        <p class="light" style="line-height: 20px;">Los Angeles, CA</p>
+                        <p class="dark" style="text-transform: uppercase;padding-top:10px;line-height: 30px;color:gray;font-size: 14px;">Date / Place of Birth</p>
+                        <p class="dark" style="line-height: 20px;">November 12, 1997</p>
+                        <p class="dark" style="line-height: 20px;">Los Angeles, CA</p>
+                    </div>
+                    <div>
+                        <p class="dark" style="text-transform: uppercase;padding-top:10px;line-height: 30px;color:gray;font-size: 14px;">Languages</p>
+                        <p class="dark" style="line-height: 20px;"><span class="lang-tip" style="background:#68d03b;"></span>English</p>
+                        <p class="dark" style="line-height: 20px;"><span class="lang-tip" style="background:#f3c65e;"></span>Armenian</p>
+                        <p class="dark" style="line-height: 20px;"><span class="lang-tip" style="background:#ee6352;"></span>Spanish</p>
                     </div>
                 </section>
                 <section style="padding: 30px 60px;">
-                    <h2 class="light" style="padding-bottom:10px;">Links</h2>
-                    <div><a class="light link" style="line-height: 30px;" href="https://arakilian0.com" target="_blank">Website</a></div>
-                    <div><a class="light link" style="line-height: 30px;" href="https://www.linkedin.com/in/michael-arakilian" target="_blank">LinkedIn</a></div>
-                    <div><a class="light link" style="line-height: 30px;" href="https://github.com/arakilian0" target="_blank">GitHub</a></div>
+                    <h2 class="dark" style="padding-bottom:10px;">Links</h2>
+                    <div><a class="dark link" style="line-height: 30px;" href="https://arakilian0.com" target="_blank">Website</a></div>
+                    <div><a class="dark link" style="line-height: 30px;" href="https://www.linkedin.com/in/michael-arakilian" target="_blank">LinkedIn</a></div>
+                    <div><a class="dark link" style="line-height: 30px;" href="https://github.com/arakilian0" target="_blank">GitHub</a></div>
                 </section>
                 <section style="padding: 0 60px;">
-                    <h2 class="light" style="padding-bottom:10px;">Skills</h2>
+                    <h2 class="dark" style="padding-bottom:10px;">Skills</h2>
                     <div class="skill-spacing">
-                        <div class="light" style="padding-bottom:5px;">HTML & CSS</div>
+                        <div class="dark" style="padding-bottom:5px;">HTML & CSS</div>
                         <div class="goal"></div>
                         <div class="current" style="width:100%;"></div>
                     </div>
                     <div class="skill-spacing">
-                        <div class="light" style="padding-bottom:5px;">JavaScript</div>
+                        <div class="dark" style="padding-bottom:5px;">JavaScript</div>
                         <div class="goal"></div>
                         <div class="current" style="width:80%;"></div>
                     </div>
                     <div class="skill-spacing">
-                        <div class="light" style="padding-bottom:5px;">jQuery</div>
-                        <div class="goal"></div>
-                        <div class="current" style="width:60%;"></div>
-                    </div>
-                    <div class="skill-spacing">
-                        <div class="light" style="padding-bottom:5px;">React</div>
-                        <div class="goal"></div>
-                        <div class="current" style="width:60%;"></div>
-                    </div>
-                    <div class="skill-spacing">
-                        <div class="light" style="padding-bottom:5px;">Angular</div>
-                        <div class="goal"></div>
-                        <div class="current" style="width:40%;"></div>
-                    </div>
-                    <div class="skill-spacing">
-                        <div class="light" style="padding-bottom:5px;">Vue</div>
-                        <div class="goal"></div>
-                        <div class="current" style="width:40%;"></div>
-                    </div>
-                    <div class="skill-spacing">
-                        <div class="light" style="padding-bottom:5px;">Node.js</div>
+                        <div class="dark" style="padding-bottom:5px;">Node.js</div>
                         <div class="goal"></div>
                         <div class="current" style="width:80%;"></div>
                     </div>
                     <div class="skill-spacing">
-                        <div class="light" style="padding-bottom:5px;">Python</div>
+                        <div class="dark" style="padding-bottom:5px;">Firebase</div>
                         <div class="goal"></div>
                         <div class="current" style="width:60%;"></div>
                     </div>
                     <div class="skill-spacing">
-                        <div class="light" style="padding-bottom:5px;">Git</div>
-                        <div class="goal"></div>
-                        <div class="current" style="width:40%;"></div>
-                    </div>
-                    <div class="skill-spacing">
-                        <div class="light" style="padding-bottom:5px;">Firebase</div>
+                        <div class="dark" style="padding-bottom:5px;">jQuery</div>
                         <div class="goal"></div>
                         <div class="current" style="width:60%;"></div>
                     </div>
                     <div class="skill-spacing">
-                        <div class="light" style="padding-bottom:5px;">MongoDB</div>
+                        <div class="dark" style="padding-bottom:5px;">React</div>
+                        <div class="goal"></div>
+                        <div class="current" style="width:60%;"></div>
+                    </div>
+                    <div class="skill-spacing">
+                        <div class="dark" style="padding-bottom:5px;">Python</div>
                         <div class="goal"></div>
                         <div class="current" style="width:40%;"></div>
                     </div>
                     <div class="skill-spacing">
-                        <div class="light" style="padding-bottom:5px;">DynamoDB</div>
-                        <div class="goal"></div>
-                        <div class="current" style="width:20%;"></div>
-                    </div>
-                    <div class="skill-spacing">
-                        <div class="light" style="padding-bottom:5px;">PHP</div>
-                        <div class="goal"></div>
-                        <div class="current" style="width:20%;"></div>
-                    </div>
-                    <div class="skill-spacing">
-                        <div class="light" style="padding-bottom:5px;">C/C++</div>
-                        <div class="goal"></div>
-                        <div class="current" style="width:20%;"></div>
-                    </div>
-                    <div class="skill-spacing">
-                        <div class="light" style="padding-bottom:5px;">Blender</div>
+                        <div class="dark" style="padding-bottom:5px;">Angular</div>
                         <div class="goal"></div>
                         <div class="current" style="width:40%;"></div>
+                    </div>
+                    <div class="skill-spacing">
+                        <div class="dark" style="padding-bottom:5px;">Blender</div>
+                        <div class="goal"></div>
+                        <div class="current" style="width:40%;"></div>
+                    </div>
+                    <div class="skill-spacing">
+                        <div class="dark" style="padding-bottom:5px;">Git</div>
+                        <div class="goal"></div>
+                        <div class="current" style="width:40%;"></div>
+                    </div>
+                    <div class="skill-spacing">
+                        <div class="dark" style="padding-bottom:5px;">MongoDB</div>
+                        <div class="goal"></div>
+                        <div class="current" style="width:40%;"></div>
+                    </div>
+                    <div class="skill-spacing">
+                        <div class="dark" style="padding-bottom:5px;">PHP</div>
+                        <div class="goal"></div>
+                        <div class="current" style="width:20%;"></div>
+                    </div>
+                    <div class="skill-spacing">
+                        <div class="dark" style="padding-bottom:5px;">C/C++</div>
+                        <div class="goal"></div>
+                        <div class="current" style="width:20%;"></div>
                     </div>
                 </section>
             </div>
