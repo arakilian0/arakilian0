@@ -18,7 +18,7 @@ function Resume(props) {
             </Modal.Body>
             <Modal.Footer>
                 <Button variant="secondary" onClick={props.handleClose}>Close</Button>
-                <Link href="/MichaelArakilian.PDF" target="_blank" download>
+                <Link href="/resume.pdf" target="_blank" download>
                     <Button variant="success">View</Button>
                 </Link>
             </Modal.Footer>
