@@ -12,11 +12,11 @@ function HomePage() {
         <_Head title="not something else" />
         <Container className="main">
             <div className={styles.leftMain} id="leftMain">
-              <Image src={profilePic} width="100" height="100" className={styles.profilePic} alt="Picture of the author" />
+              {/* <Image src={profilePic} width="100" height="100" className={styles.profilePic} alt="Picture of the author" /> */}
             </div>
             <div className={styles.rightMain}>
-              <h2 className="mob-text-space">Full Stack Developer</h2>
-              <p className="mob-text-space">I am a motivated full stack developer with a passion for creativity and problem solving. I have some experience with desktop and mobile as well. For that reason, I claim the title <span className="highl">Full Stack Developer</span>. Including <b>Web</b> feels limiting.</p>
+              <h2 className="mob-text-space">User Experience Designer</h2>
+              <p className="mob-text-space">I am a motivated UX Designer with a passion for creativity and problem solving.</p>
               <p className="mob-text-space">Hobbies:</p>
               <div className="mob-text-space">
                 <Badge>research</Badge>{' '}

@@ -12,14 +12,14 @@ function Resume(props) {
                 <Modal.Title>MichaelArakilian.PDF</Modal.Title>
             </Modal.Header>
             <Modal.Body>
-                Size: 1MB<br/>
+                Size: 58.4KB<br/>
                 Created: Jan 31, 2019<br/>
-                Updated: September 1, 2021
+                Updated: April 1, 2022
             </Modal.Body>
             <Modal.Footer>
                 <Button variant="secondary" onClick={props.handleClose}>Close</Button>
                 <Link href="/MichaelArakilian.PDF" target="_blank" download>
-                    <Button variant="success">Download</Button>
+                    <Button variant="success">View</Button>
                 </Link>
             </Modal.Footer>
         </Modal>
