@@ -3,7 +3,7 @@
 
 # Hello, folks! <img src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif" width="30px">
 
-My name is `Michael Arakilian` and I'm a Sales Representative at Volkswagen of Downtown LA. If you're looking for a new VW or wanna chat about code, you can contact me via  <a href="mailto:michael@startrev.com"> michael@snipx.io </a>
+My name is `Michael Arakilian` and I'm a Sales Representative at Volkswagen of Downtown LA. If you're looking for a new or used VW or wanna chat about code, you can contact me via  <a href="mailto:michael@startrev.com"> michael@snipx.io </a>
 
 ## &#x270d; Ecommerce
 
