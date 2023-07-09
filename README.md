@@ -3,12 +3,13 @@
 
 # Hello, folks! <img src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif" width="30px">
 
-My name is `Michael Arakilian` and I'm a Sales Representative at Volkswagen of Downtown LA. If you're looking for a new or used VW or wanna chat about code, you can contact me via  <a href="mailto:michael@startrev.com"> michael@snipx.io </a>
+My name is **Michael Arakilian**, a full-stack developer. I'm currently self-studying game development. So far, it has been my favorite subject when it comes to programming. I get to combine all my favorite things together onto one canvas. Graphics, Music, and Code!
 
-## &#x270d; Ecommerce
+## Ecommerce
+Apart from all that, I also **design**, **manufacture**, and **sell** Handcrafted Fine Jewelry - you can explore our designs at [charmnlace.com](https://charmnlace.com) 
 
-Apart from coding, I also **design**, **produce**, and **sell** handcrafted fine jewelry - you can explore my designs at [charmnlace.com](https://charmnlace.com) 
-
+## Social
+[Figma](https://www.figma.com/@arakilian0) · [Instagram](https://instagram.com/arakilian0) · [LinkedIn](https://www.linkedin.com/in/michael-arakilian) · [Npm](https://www.npmjs.com/~arakilian0) · [Pinterest](https://www.pinterest.com/arakilian0) · [Reddit](https://www.reddit.com/user/arakilian0) · [Stackoverflow](https://stackoverflow.com/users/9933900/arakilian0) · [Steam](https://steamcommunity.com/id/arkamist)  · [Twitch](https://twitch.tv/arakilian0) · [Twitter](https://twitter.com/arakilian0) · [YouTube](https://www.youtube.com/@arakilian0)
 
 ## &#x1f4c8; My Stats
 ![](https://github.com/arakilian0/github-stats/blob/master/generated/overview.svg)
