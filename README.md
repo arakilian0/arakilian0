@@ -6,7 +6,7 @@
 My name is **Michael Arakilian**, a full-stack developer. I'm currently self-studying game development. So far, it has been my favorite subject when it comes to programming. I get to combine all my favorite things together onto one canvas. Graphics, Music, and Code!
 
 ## Ecommerce
-Apart from all that, I also **design**, **manufacture**, and **sell** Handcrafted Fine Jewelry - you can explore our designs at [charmnlace.com](https://charmnlace.com) 
+I also **design**, **manufacture**, and **sell** Handcrafted Fine Jewelry - you can explore our designs at [charmnlace.com](https://charmnlace.com) 
 
 ## Social
 [Figma](https://www.figma.com/@arakilian0) · [Instagram](https://instagram.com/arakilian0) · [LinkedIn](https://www.linkedin.com/in/michael-arakilian) · [Npm](https://www.npmjs.com/~arakilian0) · [Pinterest](https://www.pinterest.com/arakilian0) · [Reddit](https://www.reddit.com/user/arakilian0) · [Stackoverflow](https://stackoverflow.com/users/9933900/arakilian0) · [Steam](https://steamcommunity.com/id/arkamist)  · [Twitch](https://twitch.tv/arakilian0) · [Twitter](https://twitter.com/arakilian0) · [YouTube](https://www.youtube.com/@arakilian0)
